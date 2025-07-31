@@ -1,0 +1,78 @@
+.PrimaryBadge {
+  background: #3498db;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  
+  i {
+    font-size: 11px;
+  }
+}
+
+.PrimaryFilter {
+  .ButtonGroup {
+    display: flex;
+    gap: 5px;
+    
+    .Button {
+      border: 1px solid #ddd;
+      background: white;
+      
+      &.Button--primary {
+        background: #3498db;
+        color: white;
+        border-color: #3498db;
+      }
+      
+      &:hover:not(.Button--primary) {
+        background: #f5f5f5;
+      }
+    }
+  }
+}
+
+// Primary badge in post header - positioned to far right (icon only)
+.Post-header {
+  position: relative;
+  
+  .item-primaryBadge {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+    
+    .PrimaryBadge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 20px;
+      height: 20px;
+      background: #e74c3c;
+      color: white;
+      border-radius: 3px;
+      cursor: help;
+      
+      i {
+        font-size: 11px;
+      }
+      
+      &:hover {
+        background: #c0392b;
+      }
+    }
+  }
+}
+
+.Post .Post-controls .Button--link {
+  font-size: 12px;
+  opacity: 0.7;
+  
+  &:hover {
+    opacity: 1;
+  }
+}

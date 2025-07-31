@@ -1,0 +1,39 @@
+{
+  "name": "zhihe/primary-posts",
+  "description": "Mark posts as primary content (正文) for serialized stories in Chinese fanfiction platform",
+  "type": "flarum-extension",
+  "keywords": ["flarum", "extension", "chinese", "fanfiction", "serialized", "stories"],
+  "homepage": "https://github.com/zhihe/zhihe-primary-posts",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zhihe Team",
+      "email": "dev@zhihe.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/zhihe/zhihe-primary-posts/issues",
+    "source": "https://github.com/zhihe/zhihe-primary-posts"
+  },
+  "require": {
+    "flarum/core": "^1.8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zhihe\\PrimaryPosts\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Primary Posts",
+      "category": "feature",
+      "icon": {
+        "name": "fas fa-bookmark",
+        "color": "#3498db"
+      }
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

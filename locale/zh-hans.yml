@@ -1,0 +1,10 @@
+zhihe-primary-posts:
+  forum:
+    mark_primary: "标记为正文"
+    unmark_primary: "取消正文标记"
+    primary_post: "正文"
+    all_posts: "显示全部"
+    primary_only: "仅正文"
+    filter_posts: "筛选帖子"
+    chapter_n: "第 {number} 章"
+    primary_checkbox: "正文"
