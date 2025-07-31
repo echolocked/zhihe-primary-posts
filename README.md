@@ -1,8 +1,8 @@
 # Zhihe Primary Posts Extension
 
-[![Latest Stable Version](https://poser.pugx.org/echolocked/zhihe-primary-posts/v/stable)](https://packagist.org/packages/echolocked/zhihe-primary-posts)
-[![Total Downloads](https://poser.pugx.org/echolocked/zhihe-primary-posts/downloads)](https://packagist.org/packages/echolocked/zhihe-primary-posts)
-[![License](https://poser.pugx.org/echolocked/zhihe-primary-posts/license)](https://packagist.org/packages/echolocked/zhihe-primary-posts)
+[![Latest Stable Version](https://poser.pugx.org/zhihe/primary-posts/v/stable)](https://packagist.org/packages/zhihe/primary-posts)
+[![Total Downloads](https://poser.pugx.org/zhihe/primary-posts/downloads)](https://packagist.org/packages/zhihe/primary-posts)
+[![License](https://poser.pugx.org/zhihe/primary-posts/license)](https://packagist.org/packages/zhihe/primary-posts)
 
 A Flarum extension that allows marking posts as primary content, perfect for serialized stories, tutorials, guides, and any multi-part content.
 
@@ -32,7 +32,7 @@ Perfect for:
 Install with Composer:
 
 ```bash
-composer require echolocked/zhihe-primary-posts
+composer require zhihe/primary-posts
 ```
 
 Enable the extension:
