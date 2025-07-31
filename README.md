@@ -1,52 +1,50 @@
 # Zhihe Primary Posts Extension
 
-A Flarum extension for marking posts as primary content (正文) in serialized stories, designed for Chinese fanfiction platforms.
+[![Latest Stable Version](https://poser.pugx.org/echolocked/zhihe-primary-posts/v/stable)](https://packagist.org/packages/echolocked/zhihe-primary-posts)
+[![Total Downloads](https://poser.pugx.org/echolocked/zhihe-primary-posts/downloads)](https://packagist.org/packages/echolocked/zhihe-primary-posts)
+[![License](https://poser.pugx.org/echolocked/zhihe-primary-posts/license)](https://packagist.org/packages/echolocked/zhihe-primary-posts)
+
+A Flarum extension that allows marking posts as primary content, perfect for serialized stories, tutorials, guides, and any multi-part content.
 
 ## Features
 
-- **Primary Post Marking**: Mark posts as "正文" (primary content) vs comments
-- **Visual Indicators**: Bookmark badges on primary posts
+- **Primary Post Marking**: Mark posts as "primary content" vs comments/discussions
+- **Visual Indicators**: Bookmark badges on primary posts for easy identification
 - **Smart Filtering**: Toggle between "Show All" and "Primary Only" views
 - **Author Controls**: Mark/unmark controls in post dropdown menus
 - **Composer Integration**: Checkbox for marking posts as primary during creation
 - **Bilingual Support**: Chinese (Simplified) and English translations
 
+Perfect for:
+- 📚 **Serialized stories** and episodic content
+- 📖 **Tutorials** and educational series  
+- 🛠️ **Development logs** and progress updates
+- 📝 **Guides** and documentation
+- 🎯 **Any multi-part content** where you want to distinguish main content from discussions
+
+## Requirements
+
+- Flarum 1.8.0+
+- PHP 8.1+
+
 ## Installation
 
-### For Development (Local Path)
-
-1. Clone or download this extension to your workspace
-2. Add to your Flarum's `composer.json`:
-
-```json
-{
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../zhihe-primary-posts"
-        }
-    ]
-}
-```
-
-3. Install the extension:
+Install with Composer:
 
 ```bash
-composer require zhihe/primary-posts
-php flarum extension:enable zhihe-primary-posts
+composer require echolocked/zhihe-primary-posts
 ```
 
-### For Production (Future)
+Enable the extension:
 
 ```bash
-composer require zhihe/primary-posts
 php flarum extension:enable zhihe-primary-posts
 ```
 
 ## Usage
 
 ### For Authors
-- **Creating Posts**: Check the "正文" checkbox when creating discussions or replies to mark them as primary content
+- **Creating Posts**: Check the "Primary" checkbox when creating discussions or replies to mark them as primary content
 - **Managing Posts**: Use the dropdown menu (three dots) on posts to mark/unmark as primary
 
 ### For Readers  
@@ -96,6 +94,10 @@ MIT License - see LICENSE file for details
 
 ## Support
 
-- Issues: [GitHub Issues](https://github.com/zhihe/zhihe-primary-posts/issues)
-- Documentation: This README
-- Chinese fanfiction community: Zhihe (纸鹤书)
+- **Issues**: [GitHub Issues](https://github.com/echolocked/zhihe-primary-posts/issues)
+- **Documentation**: This README
+- **Discussions**: [Flarum Community](https://discuss.flarum.org)
+
+---
+
+**Making every post count** 🔖✨
