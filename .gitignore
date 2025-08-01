@@ -3,7 +3,7 @@ node_modules/
 vendor/
 
 # Build output
-js/dist/
+# js/dist/  # Commented out - dist files should be committed for Flarum extensions
 *.map
 
 # IDE files
